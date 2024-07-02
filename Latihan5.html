@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menggunakan Form</title>
+</head>
+<body>
+    <form>
+        <label for="nama_depan">Nama Depan</label>
+        <input type="text" name="nam_depan" id="nama_depan"><br>
+        <label for="nama_belakang">Nama Belakang</label>
+        <input type="text" name="nama_belakang" id="nama_belakang"><br>
+        <label for="tanggal">Input Tanggal Lahir</label>
+        <input type="date" id="tanggal" name="tanggal"><br>
+        <label for="tanggal">Input Tanggal Booking</label>
+        <input type="datetime-local" id="tanggal" name="tanggal"><br>
+        <label for="nama">Input Nama Anda</label>
+        <input type="text" id="nama" name="nama"><br>
+        <input type="hidden" id="id_register" name="id_register" value="12345">
+        <label for="email">Input Email Anda</label>
+        <input type="email" id="email" name="email"><br>
+        <input type="image" src="image/register.jpeg" alt="register" width="180px">
+    </form>
+</body>
+<body>
+<form action="/login.php">
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username"><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"><br>
+    <input type="reset">
+    <input type="submit" name="login" value="Login">
+</form>
+</body> 
+<body>
+    <form>
+    <h3>Pilih Program Studi</h3>    
+        <input type="radio" id="si" name="prodi" value="SI">
+        <label for="si">Sistem Informasi</label><br>
+        <input type="radio" id="ti" name="prodi" value="TI">
+        <label for="ti">Teknik Informasi</label><br>
+        <input type="radio" id="mi" name="prodi" value="MI">
+        <label for="mi">Manajeman Informatika</label><br>
+        <input type="radio" id="ka" name="prodi" value="ka">
+        <label for="ka">Komputerisasi Akuntansi</label><br>
+        <input type="submit" name="simpan" value="Simpan">
+    <h3>Pilih MataKuliah</h3>
+    <form>
+        <input type="checkbox" id="desainweb" name="matkul" value="Desain Web">
+        <label for="desainweb">Desain Web</label><br>
+        <input type="checkbox" id="apsi" name="matkul" value="Analisis Perancangan Sistem">
+        <label for="apsi">Analisis PErancangan Sistem</label><br>
+        <input type="checkbox" id="sim" name="matkul" value="Sistem Informasi Manajamen">
+        <label for="sim">Sistem Informasi Manajaemen</label><br>
+        <input type="checkbox" id="so" name="matkul" value="Sistem Informasi">
+        <label for="so">Sistem Informasi</label><br>
+        <input type="submit" name="simpan" value="Simpan">
+</body>
+</form>
+<body>
+    <input type="button" onclick="alert('anda menekan tombol')" value="klik saya">
+    <label for="warna">Pilih Warna</label>
+    <input type="color" id="warna" name="warna">
+    <hr>
+</body>
+<form>
+    <label for="dokumen">Pilih Dokumen</label>
+    <input type="file" id="dokumen" name="dokumen"><br>
+    <input type="submit" name="upload" value="Upload">
+</form>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menggunakan Table</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            background-color: #6bceff;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%">
+        <colgroup>
+            <col span="2" style="background-color: #6bceff;">
+        </colgroup>
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">NPM</th>
+            <th rowspan="2" width="50%">Nama</th>
+            <th rowspan="2">Program Studi</th>
+            <th colspan="6">Nilai</th>
+        </tr>
+        <tr>
+            <th>Kehadiran</th>
+            <th>Tugas</th>
+            <th>UTS</th>
+            <th>UAS</th>
+            <th>Rata-Rata</th>
+            <th>Huruf</th>
+        </tr>
+        <tr height="50px">
+            <td>1</td>
+            <td>23441063</td>
+            <td>Nazwa Alya Ramadhani</td>
+            <td>Sistem Informasi (S1)</td>
+            <td>100</td>
+            <td>90</td>
+            <td>95</td>
+            <td>90</td>
+            <td>93</td>
+            <td>A</td>
+        </tr>
+    </table>
+</body>
+</html>
